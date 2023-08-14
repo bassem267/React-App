@@ -19,7 +19,7 @@ function ListGroup() {
             className={
               selectedItem === index
                 ? "list-group-item active"
-                : "list-group-item"
+                : "list-group-item active"
             }
             key={item}
             onClick={() => {
